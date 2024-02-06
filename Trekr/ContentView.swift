@@ -8,19 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let location: Location
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            Image(location.heroPicture)
+                .resizable()
+                .scaledToFit()
+                .padding()
+            
+            Text(location.name)
+                .font(.largeTitle)
+                .bold()
+                .multilineTextAlignment(.center)
+            
+            Text(location.country)
+                .font(.title)
+                .foregroundColor(.secondary)
+            
+            Text(location.description)
+                .padding()
+            
+            Text("Did you know?")
+                .font(.title3)
+                .bold()
+            
+            Text(location.more)
+                .padding()
         }
-        .padding()
+        .navigationTitle("Discover")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(location: Locations().primary)
     }
 }
