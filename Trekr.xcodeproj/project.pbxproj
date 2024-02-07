@@ -16,6 +16,9 @@
 		0F13AE732B71BB4600017A55 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13AE722B71BB4600017A55 /* Location.swift */; };
 		0F13AE752B71BE5600017A55 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13AE742B71BE5600017A55 /* Locations.swift */; };
 		0F13AE772B72A2CE00017A55 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13AE762B72A2CE00017A55 /* WorldView.swift */; };
+		93697D102B73410C00CE3D13 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93697D0F2B73410C00CE3D13 /* Tip.swift */; };
+		93697D122B73420600CE3D13 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93697D112B73420600CE3D13 /* TipsView.swift */; };
+		93697D142B73475800CE3D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93697D132B73475800CE3D13 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		0F13AE722B71BB4600017A55 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		0F13AE742B71BE5600017A55 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		0F13AE762B72A2CE00017A55 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		93697D0F2B73410C00CE3D13 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		93697D112B73420600CE3D13 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		93697D132B73475800CE3D13 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +70,12 @@
 				0F13AE602B71AADB00017A55 /* TrekrApp.swift */,
 				0F13AE622B71AADB00017A55 /* ContentView.swift */,
 				0F13AE762B72A2CE00017A55 /* WorldView.swift */,
+				93697D0F2B73410C00CE3D13 /* Tip.swift */,
+				93697D112B73420600CE3D13 /* TipsView.swift */,
 				0F13AE722B71BB4600017A55 /* Location.swift */,
 				0F13AE742B71BE5600017A55 /* Locations.swift */,
 				0F13AE642B71AADF00017A55 /* Assets.xcassets */,
+				93697D132B73475800CE3D13 /* LaunchScreen.storyboard */,
 				0F13AE6F2B71AE6C00017A55 /* locations.json */,
 				0F13AE6E2B71AE6B00017A55 /* tips.json */,
 				0F13AE662B71AADF00017A55 /* Preview Content */,
@@ -143,6 +152,7 @@
 				0F13AE682B71AADF00017A55 /* Preview Assets.xcassets in Resources */,
 				0F13AE652B71AADF00017A55 /* Assets.xcassets in Resources */,
 				0F13AE712B71AE6C00017A55 /* locations.json in Resources */,
+				93697D142B73475800CE3D13 /* LaunchScreen.storyboard in Resources */,
 				0F13AE702B71AE6C00017A55 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +167,8 @@
 				0F13AE632B71AADB00017A55 /* ContentView.swift in Sources */,
 				0F13AE732B71BB4600017A55 /* Location.swift in Sources */,
 				0F13AE772B72A2CE00017A55 /* WorldView.swift in Sources */,
+				93697D102B73410C00CE3D13 /* Tip.swift in Sources */,
+				93697D122B73420600CE3D13 /* TipsView.swift in Sources */,
 				0F13AE752B71BE5600017A55 /* Locations.swift in Sources */,
 				0F13AE612B71AADB00017A55 /* TrekrApp.swift in Sources */,
 			);
@@ -287,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = 886646DU8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = 886646DU8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
